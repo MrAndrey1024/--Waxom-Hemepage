@@ -1,3 +1,7 @@
+bode {
+	background-color:	green;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -16,5 +20,7 @@ a {
 /* /Andrey */
 
 /* Ilya */
+.container .block {
 
+}
 /* /Ilya */
