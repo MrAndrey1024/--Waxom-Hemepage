@@ -60,6 +60,10 @@ a {
 	line-height: 106px;
 }
 
+.header nav a:hover {
+	color: #c7b299;
+}
+
 .icons_align {
 	height: 100px;
 	display: flex;
