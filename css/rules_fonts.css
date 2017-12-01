@@ -56,9 +56,10 @@ FONT: Montserrat
 /* 
 FONT: Raleway 
 1) RalewayExtraBold
-2) RalewayMedium
-3) RalewayRegular
-4) RalewaySemiBold
+2) RalewayLight
+3) RalewayMedium
+4) RalewayRegular
+5) RalewaySemiBold
 */
 
 @font-face {
@@ -68,6 +69,15 @@ FONT: Raleway
 			 url("../fonts/Raleway/ExtraBold/RalewayExtraBold.woff2") format("woff2"),
 			 url("../fonts/Raleway/ExtraBold/RalewayExtraBold.eot") format("eot"),
 			 url("../fonts/Raleway/ExtraBold/RalewayExtraBold.svg") format("svg");
+}
+
+@font-face {
+	font-family: RalewayLight;
+	src: url("../fonts/Raleway/Light/RalewayLight.ttf");
+	src: url("../fonts/Raleway/Light/RalewayLight.woff") format("woff"),
+			 url("../fonts/Raleway/Light/RalewayLight.woff2") format("woff2"),
+			 url("../fonts/Raleway/Light/RalewayLight.eot") format("eot"),
+			 url("../fonts/Raleway/Light/RalewayLight.svg") format("svg");
 }
 
 @font-face {
