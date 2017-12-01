@@ -266,21 +266,35 @@ a {
 	color: white;
 }
 
+.alinger_w {
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+}
+
+.text_w {
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	float: left;
+}
+
+.button_w {
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	float: right;
+}
+
 .wp_title {
 	font: 28px RalewayRegular;
 }
 
 .wp_info {
 	font: 18px MontserratLight;
-}
-
-.alinger_w {
-	width: 1000px;
-	height: 150px;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 }
 /* /Andrey */
