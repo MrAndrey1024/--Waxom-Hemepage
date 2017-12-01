@@ -148,16 +148,19 @@ a {
 	position: absolute;
 }
 
-.container .blocks {
+.blocks {
+	width: 1080px;
+	height: 215px;
 	margin: auto;
+	margin-top: 80px;
 }
 
 /*Web*/
 .container .block_web {
-	position: absolute;
 	width: 270px;
 	height: 215px;
 	text-align: center;
+	float: left;
 }
 
 .container .block_web .block_icon {
@@ -187,8 +190,7 @@ a {
 .container .block_devel {
 	width: 270px;
 	height: 215px;
-	margin: 80px 0px 80px 760px;
-	position: absolute;
+	float: left;
 	text-align: center;
 }
 
@@ -221,7 +223,7 @@ a {
 	width: 100%;
 	height: 700px;
 	margin-top: 370px;
-	background-color: #fbfaf8;
+	background-color: #fff;
 }
 
 
@@ -292,9 +294,195 @@ a {
 
 .wp_title {
 	font: 28px RalewayRegular;
+	margin-bottom: 5px;
 }
 
 .wp_info {
 	font: 18px MontserratLight;
 }
+/* /Andrey */
+
+/* Andrey LATEST PROJECTS*/
+.latest_proj {
+	width: 100%;
+	height: 1100px;
+	background-color: #fff;
+}
+
+.alinger_lp {
+	height: 170px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;	
+}
+
+.lp_title {
+	font: 30px RalewaySemiBold;
+	margin-bottom: 10px;
+}
+
+.lp_info {
+	text-align: center;
+	font: 16px MontserratLight;
+}
+
+.nav_lp {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.nav_elem {
+	height: 35px;
+	padding-left: 25px;
+	padding-right: 25px;
+	font: 16px MontserratLight;
+	background-color: #fff;
+	border: 1px solid #ebebeb;
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.nav_elem:last-child {
+	margin-right: 0;
+}
+
+.nav_elem:hover {
+	background-color: #998675;
+	border: 1px solid #998675;
+	color: #fff;
+} 
+
+.first-crsl {
+	height: 340px;
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: center;
+}
+
+.second-crsl {
+	height: 350px;
+	display: flex;
+	justify-content: center;
+}
+
+.elem_squar {
+	width: 370px;
+	height: 340px;
+	margin-right: 15px;
+}
+
+.elem_squar:last-child {
+	margin-right: 0;
+}
+
+.photo_elem {
+	width: 370px;
+	height: 250px;
+}
+
+.ph1 {
+	background-image: url("../imgs/ph1.png");
+	background-repeat: no-repeat;
+	background-size: 370px 250px;
+}
+
+.ph2 {
+	background-image: url("../imgs/ph2.png");
+	background-repeat: no-repeat;
+	background-size: 370px 250px;
+}
+
+.ph3 {
+	background-image: url("../imgs/ph3.png");
+	background-repeat: no-repeat;
+	background-size: 370px 250px;
+}
+
+.ph4 {
+	background-image: url("../imgs/ph4.png");
+	background-repeat: no-repeat;
+	background-size: 370px 250px;
+}
+
+.ph5 {
+	background-image: url("../imgs/ph5.png");
+	background-repeat: no-repeat;
+	background-size: 370px 250px;
+}
+
+.ph6 {
+	background-image: url("../imgs/ph6.png");
+	background-repeat: no-repeat;
+	background-size: 370px 250px;
+}
+
+.info_elem {
+	height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 20px;	
+  background-color: #fbfaf8;
+}
+
+.titl_esq {
+	font: 20px RalewayMedium;
+	margin-bottom: 10px;
+}
+
+.info_esq {
+	font: 14px MontserratLight;
+}
+
+.button_lp {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+/* /Andrey */
+
+/* Andrey VIDEO BLOCK */
+.video_block {
+	width: 100%;
+	height: 710px;
+	background-image: url("../imgs/bg-video.png");
+	background-repear: no-repeat;
+	background-size: 100% 710px;
+}
+
+.alinger_video {
+	height: 710px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;		
+}
+
+.playing_v {
+	width: 100px;
+	height: 100px;
+	background-image: url("../icons/play-video.png");
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.title_v, .info_v {
+	color: #fff;
+}
+
+.title_v {
+	font: 30px RalewayMedium;
+	margin-bottom: 10px;
+}
+
+.info_v {
+	text-align: center;
+	font: 16px MontserratLight;
+}
+
 /* /Andrey */
