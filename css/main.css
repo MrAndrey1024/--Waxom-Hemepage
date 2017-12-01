@@ -1,3 +1,5 @@
+@import url("rules_fonts.css");
+
 * {
 	margin: 0;
 	padding: 0;
@@ -43,7 +45,7 @@ a {
 	left: 0;
 	right: 0;
 	display: flex;
-	font-size: 14px;
+	font: 14px MontserratLight;
 }
 
 .header nav a li {
@@ -105,15 +107,15 @@ a {
 }
 
 .about_the_proj {
-	font: 36px Arial;
+	font: 36px RalewayMedium;
 }
 
 .main_title {
-	font: 52px Arial;
+	font: 52px MontserratEB;
 }
 
 .short_info {
-	font: 16px Arial;
+	font: 16px MontserratLight;
 }
 
 .started_b {
@@ -126,7 +128,7 @@ a {
   border: 0;
   border-radius: 3px;
   cursor: pointer;
-  font: 14px Arial;
+  font: 14px MontserratEB;
 }
 
 .started_b:hover {

@@ -1,0 +1,26 @@
+@font-face {
+	font-family: MontserratLight;
+	src: url("../fonts/Montserrat/Light/MontserratLight.ttf");
+	src: url("../fonts/Montserrat/Light/MontserratLight.woff") format("woff"),
+			 url("../fonts/Montserrat/Light/MontserratLight.woff2") format("woff2"),
+			 url("../fonts/Montserrat/Light/MontserratLight.eot") format("eot"),
+			 url("../fonts/Montserrat/Light/MontserratLight.svg") format("svg");
+}
+
+@font-face {
+	font-family: MontserratEB;
+	src: url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.ttf");
+	src: url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.woff") format("woff"),
+			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.woff2") format("woff2"),
+			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.eot") format("eot"),
+			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.svg") format("svg");
+}
+
+@font-face {
+	font-family: RalewayMedium;
+	src: url("../fonts/Raleway/Medium/RalewayMedium.ttf");
+	src: url("../fonts/Raleway/Medium/RalewayMedium.woff") format("woff"),
+			 url("../fonts/Raleway/Medium/RalewayMedium.woff2") format("woff2"),
+			 url("../fonts/Raleway/Medium/RalewayMedium.eot") format("eot"),
+			 url("../fonts/Raleway/Medium/RalewayMedium.svg") format("svg");
+}
