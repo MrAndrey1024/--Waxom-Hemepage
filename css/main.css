@@ -60,7 +60,7 @@ a {
 	line-height: 106px;
 }
 
-.header nav a:hover {
+.header nav li:hover {
 	color: #c7b299;
 }
 
