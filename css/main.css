@@ -111,7 +111,7 @@ a {
 }
 
 .main_title {
-	font: 52px MontserratEB;
+	font: 52px MontserratExtraBold;
 }
 
 .short_info {
@@ -128,7 +128,7 @@ a {
   border: 0;
   border-radius: 3px;
   cursor: pointer;
-  font: 14px MontserratEB;
+  font: 14px MontserratExtraBold;
 }
 
 .started_b:hover {

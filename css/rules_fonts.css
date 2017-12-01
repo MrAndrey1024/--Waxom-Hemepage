@@ -1,3 +1,30 @@
+/* 
+FONT: Montserrat 
+1) MontserratBold
+2) MontserratExtraBold
+3) MontserratLight
+4) MontserratRegular
+5) MontserratSemiBold
+*/
+
+@font-face {
+	font-family: MontserratBold;
+	src: url("../fonts/Montserrat/Bold/MontserratBold.ttf");
+	src: url("../fonts/Montserrat/Bold/MontserratBold.woff") format("woff"),
+			 url("../fonts/Montserrat/Bold/MontserratBold.woff2") format("woff2"),
+			 url("../fonts/Montserrat/Bold/MontserratBold.eot") format("eot"),
+			 url("../fonts/Montserrat/Bold/MontserratBold.svg") format("svg");
+}
+
+@font-face {
+	font-family: MontserratExtraBold;
+	src: url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.ttf");
+	src: url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.woff") format("woff"),
+			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.woff2") format("woff2"),
+			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.eot") format("eot"),
+			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.svg") format("svg");
+}
+
 @font-face {
 	font-family: MontserratLight;
 	src: url("../fonts/Montserrat/Light/MontserratLight.ttf");
@@ -7,13 +34,40 @@
 			 url("../fonts/Montserrat/Light/MontserratLight.svg") format("svg");
 }
 
+
 @font-face {
-	font-family: MontserratEB;
-	src: url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.ttf");
-	src: url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.woff") format("woff"),
-			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.woff2") format("woff2"),
-			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.eot") format("eot"),
-			 url("../fonts/Montserrat/ExtraBold/MontserratExtraBold.svg") format("svg");
+	font-family: MontserratRegular;
+	src: url("../fonts/Montserrat/Regular/MontserratRegular.ttf");
+	src: url("../fonts/Montserrat/Regular/MontserratRegular.woff") format("woff"),
+			 url("../fonts/Montserrat/Regular/MontserratRegular.woff2") format("woff2"),
+			 url("../fonts/Montserrat/Regular/MontserratRegular.eot") format("eot"),
+			 url("../fonts/Montserrat/Regular/MontserratRegular.svg") format("svg");
+}
+
+@font-face {
+	font-family: MontserratSemiBold;
+	src: url("../fonts/Montserrat/SemiBold/MontserratSemiBold.ttf");
+	src: url("../fonts/Montserrat/SemiBold/MontserratSemiBold.woff") format("woff"),
+			 url("../fonts/Montserrat/SemiBold/MontserratSemiBold.woff2") format("woff2"),
+			 url("../fonts/Montserrat/SemiBold/MontserratSemiBold.eot") format("eot"),
+			 url("../fonts/Montserrat/SemiBold/MontserratSemiBold.svg") format("svg");
+}
+
+/* 
+FONT: Raleway 
+1) RalewayExtraBold
+2) RalewayMedium
+3) RalewayRegular
+4) RalewaySemiBold
+*/
+
+@font-face {
+	font-family: RalewayExtraBold;
+	src: url("../fonts/Raleway/ExtraBold/RalewayExtraBold.ttf");
+	src: url("../fonts/Raleway/ExtraBold/RalewayExtraBold.woff") format("woff"),
+			 url("../fonts/Raleway/ExtraBold/RalewayExtraBold.woff2") format("woff2"),
+			 url("../fonts/Raleway/ExtraBold/RalewayExtraBold.eot") format("eot"),
+			 url("../fonts/Raleway/ExtraBold/RalewayExtraBold.svg") format("svg");
 }
 
 @font-face {
@@ -23,4 +77,22 @@
 			 url("../fonts/Raleway/Medium/RalewayMedium.woff2") format("woff2"),
 			 url("../fonts/Raleway/Medium/RalewayMedium.eot") format("eot"),
 			 url("../fonts/Raleway/Medium/RalewayMedium.svg") format("svg");
+}
+
+@font-face {
+	font-family: RalewayRegular;
+	src: url("../fonts/Raleway/Regular/RalewayRegular.ttf");
+	src: url("../fonts/Raleway/Regular/RalewayRegular.woff") format("woff"),
+			 url("../fonts/Raleway/Regular/RalewayRegular.woff2") format("woff2"),
+			 url("../fonts/Raleway/Regular/RalewayRegular.eot") format("eot"),
+			 url("../fonts/Raleway/Regular/RalewayRegular.svg") format("svg");
+}
+
+@font-face {
+	font-family: RalewaySemiBold;
+	src: url("../fonts/Raleway/SemiBold/RalewaySemiBold.ttf");
+	src: url("../fonts/Raleway/SemiBold/RalewaySemiBold.woff") format("woff"),
+			 url("../fonts/Raleway/SemiBold/RalewaySemiBold.woff2") format("woff2"),
+			 url("../fonts/Raleway/SemiBold/RalewaySemiBold.eot") format("eot"),
+			 url("../fonts/Raleway/SemiBold/RalewaySemiBold.svg") format("svg");
 }
