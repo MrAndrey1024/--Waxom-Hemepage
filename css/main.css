@@ -148,7 +148,7 @@ a {
 	position: absolute;
 }
 
-.container .block {
+.container .block_web {
 	width: 270px;
 	height: 215px;
 	margin: 80px 0px 80px 380px;
@@ -156,23 +156,47 @@ a {
 	text-align: center;
 }
 
-.container .block .block_icon {
+.container .block_web .block_icon {
 	text-align: center;
 }
 
-.container .block .block_name {
+.container .block_web .block_name {
 	margin-top: 20px;
 	text-align: center;
 	font: 22px "RalewaySemiBold";
 }
 
-.container .block .block_text {
+.container .block_web .block_text {
 	text-align: center;
 	margin-top: 20px;
 	font: 14px "MontserratLight";
 }
 
-.container .block .block_line {
+.container .block_web .block_line {
+	margin: 24px auto;
+	width: 70px;
+	height: 3px;
+	background-color: #F1EEE9;
+}
+/*hover*/
+.container .block_web .block_icon:hover {
+	text-align: center;
+	filter: sepia;
+}
+
+.container .block_web .block_name {
+	margin-top: 20px;
+	text-align: center;
+	font: 22px "RalewaySemiBold";
+}
+
+.container .block_web .block_text {
+	text-align: center;
+	margin-top: 20px;
+	font: 14px "MontserratLight";
+}
+
+.container .block_web .block_line {
 	margin: 24px auto;
 	width: 70px;
 	height: 3px;
