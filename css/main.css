@@ -244,6 +244,32 @@ a {
 .wp_theme {
 	width: 100%;
 	height: 150px;
-	background: red;
+	background: linear-gradient(90deg, #211b19, #4e3427);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.wp_title, .wp_info {
+	color: white;
+}
+
+.wp_title {
+	font: 28px RalewayRegular;
+}
+
+.wp_info {
+	font: 18px MontserratLight;
+}
+
+.alinger_w {
+	width: 1000px;
+	height: 150px;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 /* /Andrey */
