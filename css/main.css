@@ -767,3 +767,31 @@ a {
 
 /* /Andrey */
 
+/*Ilya Footer*/
+.footer {
+	width: 100%;
+	height: 110px;
+	background-color: #111;
+}
+
+.footer .footer_content {
+	width: 1170px;
+	margin: auto;
+}
+
+.footer .footer_content .footer_menu .footer_items {
+	display: inline-block;
+	padding-top: 48px;
+}
+
+.footer .footer_content .footer_menu .footer_items a{
+	color: #555;
+	font:13px "MontserratLight";
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.footer .footer_content .footer_menu .footer_items a span {
+	color: #959595;
+}
+/* /Ilya Footer*/
