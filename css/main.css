@@ -669,11 +669,15 @@ a {
 }
 
 /* /Andrey */
-<<<<<<< HEAD
+
 
 /* Andrey PREDFooter */
-
+.pred_footer {
+	width: 100%;
+	height: 510px;
+	background-color: #191919;
+	border-top: 1px solid #3a342f;
+}
 
 /* /Andrey */
-=======
->>>>>>> 9df8b0ceec61c6484e357d5c9198615cd872c92e
+
