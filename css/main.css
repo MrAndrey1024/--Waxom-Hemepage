@@ -45,7 +45,7 @@ a {
 	left: 0;
 	right: 0;
 	display: flex;
-	font: 14px MontserratLight;
+	font: 14px "MontserratLight";
 }
 
 .header nav a li {
@@ -111,28 +111,28 @@ a {
 }
 
 .about_the_proj {
-	font: 36px RalewayMedium;
+	font: 36px "RalewayMedium";
 }
 
 .main_title {
-	font: 52px MontserratExtraBold;
+	font: 52px "MontserratExtraBold";
 }
 
 .short_info {
-	font: 16px RalewayLight;
+	font: 16px "RalewayLight";
 }
 
 .started_b {
-  width: 170px;
-  height: 53px;
-  margin-top: 50px;
-  background-color: #998675;
-  box-shadow: inset 0px -3px 0 rgba(0, 0, 0, 0.4);
-  color: #fff;
-  border: 0;
-  border-radius: 3px;
-  cursor: pointer;
-  font: 14px MontserratExtraBold;
+	width: 170px;
+	height: 53px;
+	margin-top: 50px;
+	background-color: #998675;
+	box-shadow: inset 0px -3px 0 rgba(0, 0, 0, 0.4);
+	color: #fff;
+	border: 0;
+	border-radius: 3px;
+	cursor: pointer;
+	font: 14px "MontserratExtraBold";
 }
 
 .started_b:hover {
@@ -246,11 +246,11 @@ a {
 }
 
 .ryi_title {
-	font: 30px RalewaySemiBold;
+	font: 30px "RalewaySemiBold";
 }
 
 .ryi_info {
-	font: 16px MontserratLight;
+	font: 16px "MontserratLight";
 	text-align: center;
 }
 
@@ -293,12 +293,12 @@ a {
 }
 
 .wp_title {
-	font: 28px RalewayRegular;
+	font: 28px "RalewayRegular";
 	margin-bottom: 5px;
 }
 
 .wp_info {
-	font: 18px MontserratLight;
+	font: 18px "MontserratLight";
 }
 /* /Andrey */
 
@@ -318,13 +318,13 @@ a {
 }
 
 .lp_title {
-	font: 30px RalewaySemiBold;
+	font: 30px "RalewaySemiBold";
 	margin-bottom: 10px;
 }
 
 .lp_info {
 	text-align: center;
-	font: 16px MontserratLight;
+	font: 16px "MontserratLight";
 }
 
 .nav_lp {
@@ -337,7 +337,7 @@ a {
 	height: 35px;
 	padding-left: 25px;
 	padding-right: 25px;
-	font: 16px MontserratLight;
+	font: 16px "MontserratLight";
 	background-color: #fff;
 	border: 1px solid #ebebeb;
 	cursor: pointer;
@@ -420,20 +420,20 @@ a {
 
 .info_elem {
 	height: 90px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 20px;	
-  background-color: #fbfaf8;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 20px;	
+	background-color: #fbfaf8;
 }
 
 .titl_esq {
-	font: 20px RalewayMedium;
+	font: 20px "RalewayMedium";
 	margin-bottom: 10px;
 }
 
 .info_esq {
-	font: 14px MontserratLight;
+	font: 14px "MontserratLight";
 }
 
 .button_lp {
@@ -476,13 +476,157 @@ a {
 }
 
 .title_v {
-	font: 30px RalewayMedium;
+	font: 30px "RalewayMedium";
 	margin-bottom: 10px;
 }
 
 .info_v {
 	text-align: center;
-	font: 16px MontserratLight;
+	font: 16px "MontserratLight";
+}
+
+/* /Andrey */
+/* Andrey MOBILES DIVACE*/
+.mob_dev {
+	width: 100%;
+	height: 700px;
+}
+
+.md_container {
+	width: 1070px;
+	height: 700px;
+	margin: auto;
+}
+
+.md_img {
+	width: 425px;
+	height: 700px;
+	float: left;
+}
+
+.md_a_img {
+	width: 425px;
+	height: 620px;
+	background-image: url("../imgs/handmobapp.png");
+	background-repeat: no-repeat;
+	background-size: 425px 620px;
+	margin-top: 80px;
+}
+
+.md_cont {
+	width: 645px;
+	height: 700px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	float: right;	
+}
+
+.md_title {
+	text-align: left;
+	font: 30px "RalewayMedium";
+	margin-bottom: 15px;
+}
+
+.md_info {
+	text-align: left;
+	font: 18px "MontserratLight";
+	margin-bottom: 15px;
+}
+
+.ul_md {
+	font: 16px "MontserratLight";
+	margin-left: 95px;
+}
+
+.ul_md li {
+	list-style-image: url("../icons/ul_marker_arrow.png");
+	padding-bottom: 5px;
+}
+
+
+/* /Andrey */
+
+/* Andrey STATIC BLOCK */
+.stat_container {
+	width: 100%;
+	height: 300px;
+	background: linear-gradient(90deg, #211b19, #4e3427);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.all_elements_sc {
+	width: 920px;
+	height: 170px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.block_sc {
+	width: 184px;
+	height: 170px;
+}
+
+.bsc_img {
+	width: 44px;
+	height: 44px;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.num_sc, .text_sc {
+	text-align: center;
+	color: white;
+	margin-bottom: 18px;
+}
+
+.num_sc {
+	font: 48px "MontserratRegular";
+}
+
+.text_sc {
+	font: 14px "MontserratLight";	
+}
+
+.icon1_sc {
+	background-image: url("../icons/static_block/people.png");
+	background-repeat: no-repeat;
+	background-size: 44px 44px;
+}
+
+.icon2_sc {
+	background-image: url("../icons/static_block/coffe.png");
+	background-repeat: no-repeat;
+	background-size: 44px 44px;
+}
+
+.icon3_sc {
+	background-image: url("../icons/static_block/sms.png");
+	background-repeat: no-repeat;
+	background-size: 44px 44px;
+}
+
+.icon4_sc {
+	background-image: url("../icons/static_block/like.png");
+	background-repeat: no-repeat;
+	background-size: 44px 44px;
+}
+
+.icon5_sc {
+	background-image: url("../icons/static_block/eating.png");
+	background-repeat: no-repeat;
+	background-size: 44px 44px;
+}
+
+
+.stat_container hr {
+	width: 40px;
+	margin: auto;
 }
 
 /* /Andrey */
