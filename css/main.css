@@ -657,7 +657,7 @@ a {
 	font: 16px "MontserratLight";
 	color: #8C8C8C;
 }
-
+/*First*/
 .recent .recent_blocks .first_resent_block {
 	padding-top: 40px;
 	width: 370px;
@@ -681,11 +681,45 @@ a {
 }
 
 .recent .recent_blocks .first_resent_block a {
+	position: absolute;
 	padding-top: 30px;
 	padding-left: 30px;
 	font: 14px "MontserratLight";
 	color: #C7B299;
 }
+/* /First*/
+/*Second*/
+.recent .recent_blocks .second_resent_block {
+	padding-top: 40px;
+	padding-left: 30px;
+	width: 370px;
+	height: 360px;
+	float: left;
+	text-align: left;
+}
+
+.recent .recent_blocks .second_resent_block .second_resent_block_name {
+	padding-top: 30px;
+	padding-left: 30px;
+	font: 20px "RalewayMedium";
+	color: #555555;
+}
+
+.recent .recent_blocks .second_resent_block .second_resent_block_description {
+	padding-top: 20px;
+	padding-left: 30px;
+	font: 14px "MontserratLight";
+	color: #8C8C8C;
+}
+
+.recent .recent_blocks .second_resent_block a {
+	position: absolute;
+	padding-top: 30px;
+	padding-left: 30px;
+	font: 14px "MontserratLight";
+	color: #C7B299;
+}
+/* /Second*/
 /* Andrey LOGOTIPS*/
 .logotips_block {
 	width: 100%;
