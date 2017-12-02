@@ -746,7 +746,6 @@ a {
 
 /* Andrey PREDFooter */
 .pred_footer {
-	width: 100%;
 	height: 510px;
 	background-color: #191919;
 	border-top: 1px solid #3a342f;
@@ -754,6 +753,15 @@ a {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+}
+
+.pred_footer hr {
+	border: 1px solid #252525;
+}
+
+.pred_footer {
+	border: 1px solid #252525;
+	margin-bottom: 4px;
 }
 
 .cont_predfooter {
@@ -764,6 +772,90 @@ a {
 	justify-content: center;
 	align-items: center;
 }
+
+.pf_elem_1 {
+	width: 260px;
+	color: white;
+	padding-bottom: 30px;
+}
+
+.pf_elem_1 a {
+	color: white;
+	margin-bottom: 60px;
+}
+
+.cont_predfooter .logotip {
+	width: 180px;
+	height: 56px;
+	background-image: url("../imgs/logo.png");
+	background-repeat: no-repeat;
+	background-size: 180px 56px;
+	margin-bottom: 25px;
+}
+
+.pf_info {
+	text-align: left;
+	font: 14px "MontserratLight";
+	margin-bottom: 20px;
+}
+
+.pf_elem_2 {
+	width: 265px;
+	color: white;
+	text-align: left;
+}
+
+.pf2_title {
+	font: 24px "RalewaySemiBold";
+	margin-bottom: 5px;
+}
+
+.data_text {
+	font: 12px "MontserratLight";
+	margin-bottom: 4px;
+}
+
+.ph_short_info {
+	font: 14px "MontserratLight";
+	margin-bottom: 2px;
+}
+
+.pf_elem_3 {
+	width: 265px;
+	color: white;
+	text-align: left;
+	margin-left: 17px;
+}
+
+.pf_elem_3 hr {
+	margin-top: 6px;
+	margin-bottom: 3px;
+}
+
+.pf3_title {
+	font: 24px "RalewaySemiBold";
+	margin-bottom: 5px;
+}
+
+.pf3_short_info {
+	margin-top: 6px;
+}
+
+.pf_elem_4 {
+	width: 265px;
+	color: white;
+	text-align: left;
+	margin-left: 17px;
+}
+
+.pf_widget {
+	width: 270px;
+	height: 206px;
+	background-image: url("../imgs/widget.png");
+	background-repeat: no-repeat;
+	background-size: 270px 206px;
+}
+
 
 /* /Andrey */
 
