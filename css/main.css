@@ -728,8 +728,6 @@ a {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	justify-content: ;
-	align-items: ;
 	background-image: url("../imgs/bg-logotips.png");
 	background-repeat: no-repeat;
 	background-size: 100% 495px;
@@ -752,6 +750,19 @@ a {
 	height: 510px;
 	background-color: #191919;
 	border-top: 1px solid #3a342f;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.cont_predfooter {
+	width: 1175px;
+	height: 360px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 /* /Andrey */
